@@ -1,5 +1,26 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+* {
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    height: 500px;
+    width: 500px;
+    box-shadow:  0px 1px 18px 3px rgba(0,0,0,0.43);
+}
+.divGridItem {
+    border-radius: 2px;
+}
+.controls {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
